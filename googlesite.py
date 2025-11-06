@@ -15,9 +15,10 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI 已經成功啟動 🔥"}
+    return {"message": "阿志是GAY"}
 
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("googlesite:app", host="127.0.0.1", port=8000, reload=True) 
+
